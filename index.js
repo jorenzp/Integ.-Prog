@@ -1,6 +1,8 @@
 function onSignIn(googleUser) {
   var profile = googleUser.getBasicProfile();
   $(".main").css("display","none");
+  alert('User signed in.');
+  
 }
 
 function signOut() {
