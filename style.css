@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.main {
+    height: 109vh;
+    width: 100%;
+    background-image:linear-gradient(to top, rgba(0, 0, 0, 0.5)50%,rgba(0, 0, 0, 0.5)50%), url(images/bg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: crimson;
+    size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+.logo a{
+    text-decoration: none;
+    color: crimson;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 250px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s, ease-in-out;
+    position: relative;
+}
+
+ul li a::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: crimson;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+ul li a:hover::after{
+    width: 100%;
+
+}
+
+.slogan{
+    text-align: center;
+}
+
+.slogan h1{
+    margin-top: 5%;
+    color: white;
+    font-size: 35;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.slogan p{
+    margin-top: 2%;
+    line-height: 2;
+    font-size: 25;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btns{
+    text-align: center;
+    margin-top: 2%;
+
+}
+
+.btn{
+    border: 1px solid crimson;
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: "montserrat";
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.8s;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.patientbtn, .doctorbtn{
+    color: crimson;
+}
+
+.patientbtn:hover, .doctorbtn:hover{
+    color: white;
+    background-color: crimson;
+}
+.btn::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background:crimson;
+    z-index: -1;
+    transition: 0.8s;
+
+}
+
+
+/*about-------------------------*/
+
+#about-section{
+    padding: 60px 0;
+    color: black;
+    background-color: gray;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cont{
+    flex-basis: 35%;
+}
+
+.cont img{
+    width: 100%;
+    border-radius: 40px;
+    padding-left: 20px;
+}
+
+.cont1{
+    flex-basis: 60%;
+
+}
+
+.sub{
+    font-size: 40px;
+    font-weight: 600;
+    color: crimson;
+}
+
+.cont1 p{
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
