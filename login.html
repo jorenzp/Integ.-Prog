@@ -3,14 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="google-signin-client_id" content="509346360505-3np7pn849nskuercs5dqad9sgqooksod.apps.googleusercontent.com">
     <title>Patient Login</title>
     <link rel="stylesheet" href="login.css">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script>
+        // Initialize Google API Client with your client ID
+        function initGoogleSignIn() {
+            gapi.load('auth2', function() {
+                auth2 = gapi.auth2.init({
+                    client_id: '509346360505-3np7pn849nskuercs5dqad9sgqooksod.apps.googleusercontent.com',
+                    cookiepolicy: 'single_host_origin'
+                });
+            });
+        }
+    </script>
 </head>
 <body>
     <div class="main">
         <h2>Sign Up</h2>
     <a href="index.html"><img src="images/left-arrow (1).png" alt=""></a>
+    <button onclick="signInWithGoogle()">Sign in with Google</button>
     </div>
+    <button onclick="signOut()">Sign out</button>
+
 </body>
 </html>
