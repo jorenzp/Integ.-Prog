@@ -20,7 +20,7 @@ function init() {
 // Function to handle successful sign-in
 function onSuccess(user) {
     console.log('Signed in as ' + user.getBasicProfile().getName());
-    window.location.href = "https://www.facebook.com/";
+    window.location.href = "";
 }
 
 // Function to handle sign-in failure
