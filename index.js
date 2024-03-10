@@ -4,7 +4,7 @@ function init() {
         var auth2 = gapi.auth2.init({
             client_id: '509346360505-3np7pn849nskuercs5dqad9sgqooksod.apps.googleusercontent.com',
             // Specify your login endpoint
-            login_hint: 'https://jorenzp.github.io',
+            login_hint: 'https://jorenzp.github.io/Integ.-Prog',
             // Add any additional options here if needed
         });
 
