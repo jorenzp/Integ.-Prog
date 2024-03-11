@@ -4,7 +4,7 @@
 }
 
 .main{
-    background: linear-gradient(to top, #ff5050 0%, #ff0000 100%);
+    background: linear-gradient(to right top, #d00202, #e11d4c, #e04782, #d26cac, #bf8bc7);
     width: 30%; 
     height: 400px;
     margin: 0 auto;
