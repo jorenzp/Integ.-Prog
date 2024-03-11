@@ -5,4 +5,8 @@
 
 .cont img{
     border-radius: 20px;
+    padding-top: 50px;
+    padding-left: 50px;
+    margin-top: -50%;
+    margin-left: -50%;
 }
