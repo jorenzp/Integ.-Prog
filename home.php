@@ -12,13 +12,13 @@
     <div class="main">
         <div class="navbar">
             <div class="icon">
-                <h2 class="logo"><a href="index.html">Saint Paul's</h2></a>
+                <h2 class="logo"><a href="home.php">Saint Paul's</h2></a>
             </div>
             <div class="menu">
                 <ul>
                     <li><a href="#">HOME</a></li>
                     <li><a href="#about-section">ABOUT</a></li>
-                    <li><a href="login.html">LOGIN</a></li>
+                    <li><a href="index.php">LOGIN</a></li>
                 </ul>
             </div>
         </div>
