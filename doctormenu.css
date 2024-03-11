@@ -3,10 +3,24 @@
     margin: 0;
 }
 
-.cont img{
+.cont{
+    background: linear-gradient(to bottom right, #3333ff 0%, #33cccc 100%);
+    width: 30%; 
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 100px; 
+    padding: 20px;
+    box-sizing: border-box; 
+    text-align: center;
     border-radius: 20px;
-    padding-top: 50px;
-    padding-left: 50px;
-    margin-top: -50%;
-    margin-left: -50%;
+    position: relative;
+    color: #2f3542;
+}
+
+.cont img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 10px;
+    margin-left: 10px;
 }
