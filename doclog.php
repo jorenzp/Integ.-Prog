@@ -9,7 +9,7 @@
 <body>
     <div class="cont">
         <h2>Login</h2>
-        <a href="index.html"><img src="images/left-arrow (1).png" alt=""></a>
+        <a href="home.php"><img src="images/left-arrow (1).png" alt=""></a>
     </div>
 </body>
 </html>

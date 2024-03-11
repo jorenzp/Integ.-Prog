@@ -9,7 +9,7 @@
 <body>
     <div class="main">
         <h2>Sign Up</h2>
-        <a href="index.html"><img src="images/left-arrow (1).png" alt=""></a>
+        <a href="home.php"><img src="images/left-arrow (1).png" alt=""></a>
     </div>
 </body>
 </html>
